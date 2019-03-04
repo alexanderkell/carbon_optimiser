@@ -1,0 +1,1 @@
+sys.modules['elecsim.scenario.scenario_data']=scenario_file

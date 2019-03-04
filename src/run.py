@@ -1,9 +1,11 @@
+from elecsim.data_manipulation.data_modifications.scenario_modifier import overwrite_scenario_file
+import scenario_file
+
 from elecsim.model.world import World
-import logging
-logging.basicConfig(level=logging.INFO)
 
 if __name__ == "__main__":
-    print("Hello")
-    world = World(2018)
+    overwrite_scenario_file(scenario_file)
+    world = World(2018, log_level="info")
     for i in range(20):
-    world.step()
+        world.step()
+        
