@@ -1,0 +1,38 @@
+,Company,Name,Fuel,Capacity,Start_date,Location,Simplified_Type
+0,AES,Ballylumford B,Gas,540.0,1968,Northern Ireland,Recip_gas
+1,AES,Ballylumford B OCGT,Gas oil,116.0,1968,Northern Ireland,Recip_gas
+2,AES,Ballylumford C,CCGT,616.0,2003,Northern Ireland,CCGT
+3,AES,Kilroot OCGT,Gas oil,142.0,1981,Northern Ireland,Recip_gas
+4,AES,Kilroot,Coal/oil,560.0,1981,Northern Ireland,Coal
+181,Ecotricity,Ballymena,Wind,4.6,2013,Northern Ireland,Onshore
+271,ESB,Coolkeeragh,CCGT,408.0,2005,Northern Ireland,CCGT
+272,ESB,Coolkeeragh OCGT,Gas oil,53.0,2005,Northern Ireland,Recip_gas
+295,Greencoat,Bin Mountain Wind Farm ,Wind,9.0,2007,Northern Ireland,Onshore
+307,Greencoat,Screggagh,Wind,20.0,2011,Northern Ireland,Onshore
+310,Greencoat,Tappaghan Wind Farm,Wind,28.5,2004,Northern Ireland,Onshore
+312,Greencoat,Slieve Divena,Wind,30.0,2009,Northern Ireland,Onshore
+316,Greencoat,Bann Road,Solar,45.8,2017,Northern Ireland,PV
+485,LightsourceBP,Crookedstone,Solar,4.8,2016,Northern Ireland,PV
+524,LightsourceBP,Millar Farm,Solar,7.2,2017,Northern Ireland,PV
+569,LightsourceBP,Lough Road PV,Solar,32.1,2017,Northern Ireland,PV
+711,REG power,Brackagh Quarry,Wind,5.0,2017,Northern Ireland,Onshore
+742,Renewable energy systems,Gruig Wind Farm Limited,Wind,25.0,2009,Northern Ireland,Onshore
+744,Renewable energy systems,Altahullion Extension Wind Farm (NI),Wind,11.7,2007,Northern Ireland,Onshore
+745,Renewable energy systems,Altahullion Wind Farm (NI),Wind,26.0,2003,Northern Ireland,Onshore
+760,Renewable energy systems,Lendrums Bridge Extension Wind Farm (NI),Wind,7.3,1999,Northern Ireland,Onshore
+761,Renewable energy systems,Lendrums Bridge Wind Farm (NI),Wind,5.9,2000,Northern Ireland,Onshore
+762,Renewable energy systems,Lough Hill Wind Farm (NI),Wind,7.8,2007,Northern Ireland,Onshore
+783,Rockfire capital,Carrowdore,Solar,6.0,2017,Northern Ireland,PV
+788,Rockfire capital,Lisburn,Solar,20.5,2017,Northern Ireland,PV
+842,Scottish power,Callagheen,Wind,16.9,2006,Northern Ireland,Onshore
+847,Scottish power,Corkey,Wind,5.0,1994,Northern Ireland,Onshore
+852,Scottish power,Elliot's Hill,Wind,5.0,1995,Northern Ireland,Onshore
+867,Scottish power,Rigged Hill,Wind,5.0,1994,Northern Ireland,Onshore
+871,Scottish power,Wolf Bog,Wind,10.0,2007,Northern Ireland,Onshore
+994,SSE,Bessy Bell Windfarm,Wind,5.0,1995,Northern Ireland,Onshore
+995,SSE,Bessy Bell Windfarm (NI) Limited,Wind,9.0,2008,Northern Ireland,Onshore
+1011,SSE,Slieve Divena 2,Wind,18.8,2017,Northern Ireland,Onshore
+1012,SSE,Slieve Kirk Windfarm,Wind,73.6,2012,Northern Ireland,Onshore
+1017,SSE,Tievenameenta Wind Farm,Wind,34.5,2017,Northern Ireland,Onshore
+1019,SSE,SSE Arena Belfast,Solar,0.4,2017,Northern Ireland,PV
+1058,WPO,Altaveedan,Wind,18.0,2017,Northern Ireland,Onshore

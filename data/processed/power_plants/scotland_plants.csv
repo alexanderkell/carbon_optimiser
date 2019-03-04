@@ -1,0 +1,277 @@
+,Company,Name,Fuel,Capacity,Start_date,Location,Simplified_Type
+100,Blue energy,Beinneun Wind Farm,Wind,108.8,2017,Scotland,Onshore
+101,Blue energy,Cour Wind Farm,Wind,20.5,2016,Scotland,Onshore
+134,Cubico Sustainable Investments Limited,Kinblethmont Solar Park (Scotland),Solar,5.0,2016,Scotland,PV
+135,Cubico Sustainable Investments Limited,New Mains of Guynd (Scotland),Solar,5.0,2016,Scotland,PV
+147,E.On UK,Steven's Croft *,Biomass_wood,50.0,2007,Scotland,Biomass_wood
+151,E.On UK,Bowbeat (Emly Bank),Wind,15.6,2002,Scotland,Onshore
+152,E.On UK,Bowbeat (Roughside),Wind,15.6,2002,Scotland,Onshore
+155,E.On UK,Camster,Wind,50.0,2013,Scotland,Onshore
+156,E.On UK,Deucheran Hill (RO),Wind,15.8,2001,Scotland,Onshore
+172,E.On UK,Robin Rigg East,Wind (offshore),90.0,2010,Scotland,Onshore
+173,E.On UK,Robin Rigg West,Wind (offshore),90.0,2010,Scotland,Onshore
+174,E.On UK,Rosehall,Wind,25.0,2013,Scotland,Onshore
+187,Ecotricity,Dundee,Wind,4.0,2006,Scotland,Onshore
+188,Ecotricity,East Kilbride,Wind,0.6,2016,Scotland,Onshore
+209,EDF Energy,Hunterston B,Nuclear,1074.0,1976,Scotland,Nuclear
+210,EDF Energy,Torness,Nuclear,1250.0,1988,Scotland,Nuclear
+223,EDF renewables,Burnfoot,Wind,30.1,2010,Scotland,Onshore
+224,EDF renewables,Burnhead Moss,Wind,26.0,2015,Scotland,Onshore
+227,EDF renewables,Corriemoillie,Wind,47.5,2017,Scotland,Onshore
+230,EDF renewables,Fallago Rig,Wind,144.0,2013,Scotland,Onshore
+240,EDF renewables,Longpark,Wind,38.0,2009,Scotland,Onshore
+242,EDF renewables,Pearie Law,Wind,19.2,2016,Scotland,Onshore
+245,EDF renewables,Rhodders ,Wind,12.0,2016,Scotland,Onshore
+254,Eneco,Burn of Whilk,Wind,22.5,2015,Scotland,Onshore
+255,Eneco,Lochluichart,Wind,69.0,2014,Scotland,Onshore
+256,Eneco,Moy,Wind,60.0,2016,Scotland,Onshore
+257,Eneco,Tullo,Wind,17.0,2010,Scotland,Onshore
+258,Eneco,Twinshiels,Wind,25.0,2015,Scotland,Onshore
+267,EPR,Westfield,Biomass_poultry_litter,12.5,2000,Scotland,Biomass_poultry_litter
+274,Falck renewables LTD,Assel Valley,Wind,25.0,2016,Scotland,Onshore
+275,Falck renewables LTD,Auchrobert,Wind,38.8,2017,Scotland,Onshore
+276,Falck renewables LTD,Ben Aketil,Wind,27.6,2007,Scotland,Onshore
+277,Falck renewables LTD,Boyndie,Wind,16.3,2006,Scotland,Onshore
+279,Falck renewables LTD,Earlsburn,Wind,37.5,2006,Scotland,Onshore
+280,Falck renewables LTD,Kilbraur,Wind,67.5,2008,Scotland,Onshore
+281,Falck renewables LTD,Kingsburn,Wind,22.5,2016,Scotland,Onshore
+282,Falck renewables LTD,Millennium,Wind,65.0,2007,Scotland,Onshore
+283,Falck renewables LTD,Nutberry,Wind,15.0,2011,Scotland,Onshore
+285,Falck renewables LTD,West Browncastle,Wind,30.0,2014,Scotland,Onshore
+287,Fred Olsen Renewables,Brockloch Rig ,Wind,61.5,2017,Scotland,Onshore
+288,Fred Olsen Renewables,Crystal Rig,Wind,62.5,2003,Scotland,Onshore
+289,Fred Olsen Renewables,Crystal Rig II,Wind,138.0,2003,Scotland,Onshore
+290,Fred Olsen Renewables,Crystal Rig III,Wind,13.8,2016,Scotland,Onshore
+291,Fred Olsen Renewables,Mid Hill,Wind,75.9,2013,Scotland,Onshore
+292,Fred Olsen Renewables,Pauls Hill,Wind,64.4,2005,Scotland,Onshore
+293,Fred Olsen Renewables,Rothes,Wind,50.6,2004,Scotland,Onshore
+294,Fred Olsen Renewables,Rothes II,Wind,41.4,2013,Scotland,Onshore
+297,Greencoat,Bogenlea,Wind,2.3,2014,Scotland,Onshore
+298,Greencoat,Braes of Doune Wind Farm,Wind,72.0,2006,Scotland,Onshore
+299,Greencoat,Carcant Wind Farm,Wind,6.0,2010,Scotland,Onshore
+301,Greencoat,Drone Hill,Wind,28.6,2012,Scotland,Onshore
+303,Greencoat,Kildrummy,Wind,18.4,2013,Scotland,Onshore
+304,Greencoat,Langhope Rig,Wind,20.0,2015,Scotland,Onshore
+306,Greencoat,North Rhins,Wind,22.0,2010,Scotland,Onshore
+309,Greencoat,Stroupster,Wind,29.9,2015,Scotland,Onshore
+353,Infinis,Ardrossan,Wind,30.0,2004,Scotland,Onshore
+354,Infinis,A'Chruach,Wind,42.6,2016,Scotland,Onshore
+356,Infinis,Dalswinton,Wind,30.0,2007,Scotland,Onshore
+357,Infinis,Galawhistle,Wind,55.2,2016,Scotland,Onshore
+358,Infinis,Glenkerie,Wind,19.4,2012,Scotland,Onshore
+359,Infinis,Gordonstown,Wind,12.3,2013,Scotland,Onshore
+360,Infinis,Hill of Fiddes,Wind,6.9,2010,Scotland,Onshore
+363,Infinis,Minsca,Wind,36.8,2007,Scotland,Onshore
+370,Infinis,Westfield,Wind,9.8,2013,Scotland,Onshore
+373,Infinis,Beinn ghlas windfarm,Wind,8.4,1999,Scotland,Onshore
+376,Infinis,Causeymire wind farm,Wind,48.3,2004,Scotland,Onshore
+377,Infinis,Farr wind farm ltd,Wind,92.0,2005,Scotland,Onshore
+383,Infinis,Novar,Wind,17.0,1997,Scotland,Onshore
+387,Infinis,Windy Standard,Wind,21.6,1996,Scotland,Onshore
+388,Innogy renewables,An Suidhe,Wind,19.3,2005,Scotland,Onshore
+389,Innogy renewables,Bilbster,Wind,3.9,2007,Scotland,Onshore
+391,Innogy renewables,Burgar Hill,Wind,5.0,2006,Scotland,Onshore
+403,Innogy renewables,Lochelbank,Wind,9.6,2010,Scotland,Onshore
+406,Innogy renewables,Novar2,Wind,36.8,2012,Scotland,Onshore
+409,Innogy renewables,Cia Aig ,Hydro,3.0,2016,Scotland,Hydro
+410,Innogy renewables,Auchtertyre,Hydro,0.6,2000,Scotland,Hydro
+411,Innogy renewables,Black Rock,Hydro,3.5,2012,Scotland,Hydro
+412,Innogy renewables,Blantyre,Hydro,0.6,1995,Scotland,Hydro
+413,Innogy renewables,Braevallich,Hydro,2.2,2005,Scotland,Hydro
+414,Innogy renewables,Carnoch,Hydro,1.4,2009,Scotland,Hydro
+419,Innogy renewables,Douglas Water,Hydro,3.0,2008,Scotland,Hydro
+422,Innogy renewables,Garrogie,Hydro,2.4,2005,Scotland,Hydro
+423,Innogy renewables,Garry Gualach,Hydro,0.8,2002,Scotland,Hydro
+424,Innogy renewables,Glen Tarbert,Hydro,0.9,2000,Scotland,Hydro
+425,Innogy renewables,Grudie ,Hydro,2.0,2017,Scotland,Hydro
+426,Innogy renewables,Inverbain,Hydro,1.0,2006,Scotland,Hydro
+427,Innogy renewables,Inverlael,Hydro,2.5,2009,Scotland,Hydro
+429,Innogy renewables,Maldie,Hydro,4.0,2013,Scotland,Hydro
+430,Innogy renewables,River E,Hydro,3.0,2008,Scotland,Hydro
+432,Innogy renewables,Stanley Mill,Hydro,0.8,2003,Scotland,Hydro
+716,REG power,Glens of Foudland,Wind,26.0,2005,Scotland,Onshore
+746,Renewable energy systems,Black Hill Wind Farm (GB),Wind,28.6,2006,Scotland,Onshore
+749,Renewable energy systems,Earlseat Wind Farm (GB),Wind,16.0,2014,Scotland,Onshore
+750,Renewable energy systems,Forss Extension Wind Farm (GB),Wind,5.2,2007,Scotland,Onshore
+751,Renewable energy systems,Forss Wind Farm (GB),Wind,2.0,2003,Scotland,Onshore
+753,Renewable energy systems,Freasdail (GB),Wind,22.5,2017,Scotland,Onshore
+755,Renewable energy systems,Glenchamber Wind Farm (GB),Wind,27.5,2016,Scotland,Onshore
+757,Renewable energy systems,Hill of Towie Wind Farm (GB),Wind,48.3,2012,Scotland,Onshore
+759,Renewable energy systems,Kelburn Wind Farm (GB),Wind,28.0,2012,Scotland,Onshore
+763,Renewable energy systems,Meikle Carewe Wind Farm (GB),Wind,10.2,2013,Scotland,Onshore
+764,Renewable energy systems,Minnygap (GB),Wind,25.0,2017,Scotland,Onshore
+765,Renewable energy systems,Neilston (GB),Wind,10.1,2013,Scotland,Onshore
+766,Renewable energy systems,Penmanshiel (GB),Wind,28.7,2016,Scotland,Onshore
+812,RWE Generation SE,Markinch CHP *,Biomass_wood,65.0,2014,Scotland,Biomass_wood
+820,Scira Offshore Energy Ltd,Hywind BMU 1,Wind (offshore),30.0,2017,Scotland,Onshore
+823,Scotia wind,Barlockhart Moor Wind Energy Ltd,Wind,8.2,2013,Scotland,Onshore
+824,Scotia wind,Blantyre Muir Wind Energy Ltd,Wind,12.3,2013,Scotland,Onshore
+825,Scotia wind,Cairnborrow Wind Energy Ltd,Wind,10.0,2017,Scotland,Onshore
+829,Scotia wind,Scotia wind (Craigengelt) Ltd,Wind,20.0,2010,Scotland,Onshore
+836,Scottish power,Arecleoch,Wind,120.0,2010,Scotland,Onshore
+837,Scottish power,Beinn an Tuirc I,Wind,29.7,2001,Scotland,Onshore
+838,Scottish power,Beinn an Tuirc II,Wind,43.7,2002,Scotland,Onshore
+839,Scottish power,Beinn Tharsuinn,Wind,29.8,2006,Scotland,Onshore
+840,Scottish power,Black Law,Wind,124.2,2005,Scotland,Onshore
+841,Scottish power,Black Law II,Wind,63.4,2017,Scotland,Onshore
+844,Scottish power,Clachan Flats,Wind,15.0,2009,Scotland,Onshore
+848,Scottish power,Cruach Mhor,Wind,29.8,2004,Scotland,Onshore
+849,Scottish power,Dersalloch,Wind,69.0,2016,Scotland,Onshore
+850,Scottish power,Dun Law I,Wind,17.2,2000,Scotland,Onshore
+851,Scottish power,Dun Law II,Wind,29.8,2009,Scotland,Onshore
+853,Scottish power,Ewe Hill I,Wind,13.8,2016,Scotland,Onshore
+854,Scottish power,Ewe Hill II,Wind,36.8,2017,Scotland,Onshore
+855,Scottish power,Glenapp,Wind,22.0,2016,Scotland,Onshore
+856,Scottish power,Green Knowes,Wind,27.0,2008,Scotland,Onshore
+857,Scottish power,Hagshaw Hill I,Wind,15.6,1995,Scotland,Onshore
+858,Scottish power,Hagshaw Hill II,Wind,26.0,1995,Scotland,Onshore
+859,Scottish power,Hare Hill (scotland),Wind,13.2,2004,Scotland,Onshore
+860,Scottish power,Hare Hill II,Wind,29.8,2016,Scotland,Onshore
+861,Scottish power,Harestanes,Wind,136.0,2013,Scotland,Onshore
+862,Scottish power,Kilgallioch ,Wind,239.0,2017,Scotland,Onshore
+864,Scottish power,Mark Hill,Wind,56.0,2011,Scotland,Onshore
+865,Scottish power,Middleton,Wind,12.0,2013,Scotland,Onshore
+868,Scottish power,Wether Hill,Wind,18.2,2007,Scotland,Onshore
+869,Scottish power,Whitelee,Wind,322.0,2007,Scotland,Onshore
+870,Scottish power,Whitelee II,Wind,217.0,2013,Scotland,Onshore
+872,Scottish power,Carsfad,Hydro,12.0,1936,Scotland,Hydro
+873,Scottish power,Drumjohn,Hydro,2.0,1985,Scotland,Hydro
+874,Scottish power,Earlstoun,Hydro,14.0,1936,Scotland,Hydro
+875,Scottish power,Glenlee,Hydro,24.0,1935,Scotland,Hydro
+876,Scottish power,Kendoon,Hydro,24.0,1936,Scotland,Hydro
+877,Scottish power,Tongland,Hydro,33.0,1935,Scotland,Hydro
+878,Scottish power,Bonnington,Hydro,11.0,1927,Scotland,Hydro
+879,Scottish power,Stonebyres,Hydro,6.0,1927,Scotland,Hydro
+880,Scottish power,Cruachan,Pumped storage,440.0,1966,Scotland,Pumped_storage
+887,SSE,Aigas,Hydro,20.0,1962,Scotland,Hydro
+888,SSE,Culligran,Hydro,17.0,1962,Scotland,Hydro
+889,SSE,Culligran Compensation Set,Hydro,2.1,1962,Scotland,Hydro
+890,SSE,Deanie,Hydro,38.0,1963,Scotland,Hydro
+891,SSE,Fasnakyle,Hydro,69.0,1951,Scotland,Hydro
+892,SSE,Fasnakyle Compensation Set,Hydro,7.5,2006,Scotland,Hydro
+893,SSE,Kilmorack,Hydro,20.0,1962,Scotland,Hydro
+894,SSE,Mullardoch Tunnel,Hydro,2.4,1955,Scotland,Hydro
+895,SSE,Cashlie,Hydro,11.0,1959,Scotland,Hydro
+896,SSE,Dalchonzie,Hydro,4.0,1958,Scotland,Hydro
+897,SSE,Finlarig,Hydro,16.5,1955,Scotland,Hydro
+898,SSE,Lednock,Hydro,3.0,1961,Scotland,Hydro
+899,SSE,Lochay,Hydro,46.0,1958,Scotland,Hydro
+900,SSE,Lochay Compensation Set,Hydro,2.0,1959,Scotland,Hydro
+902,SSE,Lubreoch,Hydro,4.0,1958,Scotland,Hydro
+903,SSE,St. Fillans,Hydro,16.8,1957,Scotland,Hydro
+904,SSE,Achanalt,Hydro,3.0,1956,Scotland,Hydro
+905,SSE,Cuileg,Hydro,3.1,2002,Scotland,Hydro
+906,SSE,Grudie Bridge,Hydro,18.7,1950,Scotland,Hydro
+907,SSE,Loch Dubh,Hydro,1.2,1954,Scotland,Hydro
+908,SSE,Luichart,Hydro,34.0,1954,Scotland,Hydro
+909,SSE,Luichart Dam,Hydro,0.1,1954,Scotland,Hydro
+910,SSE,Mossford,Hydro,18.7,1957,Scotland,Hydro
+911,SSE,Orrin,Hydro,18.0,1959,Scotland,Hydro
+912,SSE,Orrin Dam,Hydro,0.3,1959,Scotland,Hydro
+913,SSE,Torr Achilty,Hydro,15.0,1954,Scotland,Hydro
+914,SSE,Foyers,Hydro / pumped storage,300.0,1974,Scotland,Hydro
+915,SSE,Ceannacroc,Hydro,20.0,1956,Scotland,Hydro
+916,SSE,Foyers Falls,Hydro,5.0,1968,Scotland,Hydro
+917,SSE,Glendoe,Hydro,100.0,2008,Scotland,Hydro
+918,SSE,Glenmoriston,Hydro,37.0,1957,Scotland,Hydro
+919,SSE,Invergarry,Hydro,20.0,1956,Scotland,Hydro
+920,SSE,Invergarry Dam,Hydro,0.3,1956,Scotland,Hydro
+921,SSE,Kingairloch,Hydro,3.5,2005,Scotland,Hydro
+922,SSE,Livishie,Hydro,17.0,1962,Scotland,Hydro
+923,SSE,Mucomir,Hydro,1.8,1962,Scotland,Hydro
+924,SSE,Quoich,Hydro,18.1,1955,Scotland,Hydro
+925,SSE,Quoich Dam,Hydro,0.4,1955,Scotland,Hydro
+926,SSE,Cassley,Hydro,10.0,1959,Scotland,Hydro
+927,SSE,Lairg,Hydro,4.0,1959,Scotland,Hydro
+928,SSE,Shin,Hydro,18.6,1958,Scotland,Hydro
+929,SSE,Shin Diversion Dam,Hydro,0.1,1958,Scotland,Hydro
+930,SSE,Allt na Lairige,Hydro,6.0,1956,Scotland,Hydro
+931,SSE,Awe Barrage,Hydro,0.9,1956,Scotland,Hydro
+932,SSE,Clachan,Hydro,40.0,1955,Scotland,Hydro
+933,SSE,Inverawe,Hydro,25.0,1963,Scotland,Hydro
+934,SSE,Kilmelfort,Hydro,2.1,1956,Scotland,Hydro
+935,SSE,Loch Gair,Hydro,6.0,1961,Scotland,Hydro
+936,SSE,Lussa,Hydro,2.4,1952,Scotland,Hydro
+937,SSE,Nant,Hydro,15.0,1963,Scotland,Hydro
+938,SSE,Sloy,Hydro,152.5,1950,Scotland,Hydro
+939,SSE,Sron Mor,Hydro,4.0,1957,Scotland,Hydro
+940,SSE,Striven,Hydro,8.0,1951,Scotland,Hydro
+941,SSE,Clunie,Hydro,61.2,1950,Scotland,Hydro
+942,SSE,Clunie Dam,Hydro,0.2,1950,Scotland,Hydro
+943,SSE,Cuaich,Hydro,2.5,1959,Scotland,Hydro
+944,SSE,Errochty,Hydro,75.0,1955,Scotland,Hydro
+945,SSE,Gaur,Hydro,7.9,1953,Scotland,Hydro
+946,SSE,Loch Ericht,Hydro,2.2,1962,Scotland,Hydro
+947,SSE,Pitlochry,Hydro,15.0,1950,Scotland,Hydro
+948,SSE,Pitlochry Dam,Hydro,0.1,1950,Scotland,Hydro
+949,SSE,Rannoch,Hydro,45.0,1930,Scotland,Hydro
+950,SSE,Tummel,Hydro,34.0,1933,Scotland,Hydro
+951,SSE,Beannachran Dam,Hydro,0.2,2005,Scotland,Hydro
+952,SSE,Chliostair,Hydro,1.2,1960,Scotland,Hydro
+953,SSE,Cladach Dam,Hydro,0.2,1949,Scotland,Hydro
+954,SSE,Cluanie Dam,Hydro,0.3,1955,Scotland,Hydro
+955,SSE,Duchally,Hydro,0.4,1959,Scotland,Hydro
+956,SSE,Dundreggan Dam A,Hydro,0.2,1957,Scotland,Hydro
+957,SSE,Gisla,Hydro,0.7,1960,Scotland,Hydro
+958,SSE,Kerry Falls,Hydro,1.3,1951,Scotland,Hydro
+959,SSE,Loyne,Hydro,0.6,1959,Scotland,Hydro
+960,SSE,Meig Dam,Hydro,0.1,1954,Scotland,Hydro
+961,SSE,Misgeach Power Station,Hydro,0.4,1963,Scotland,Hydro
+962,SSE,Morar Power Station,Hydro,0.8,1950,Scotland,Hydro
+963,SSE,Nostie Bridge,Hydro,1.3,1950,Scotland,Hydro
+964,SSE,Storr Lochs,Hydro,2.4,1952,Scotland,Hydro
+965,SSE,Stronuich Power Station,Hydro,0.2,1957,Scotland,Hydro
+966,SSE,Tobermory Power Station,Hydro,0.3,1954,Scotland,Hydro
+967,SSE,Tralaig Power Station,Hydro,0.1,1956,Scotland,Hydro
+968,SSE,Trinafour Power Station,Hydro,0.6,1959,Scotland,Hydro
+969,SSE,Vaich Power Station,Hydro,0.3,1956,Scotland,Hydro
+970,SSE,Arnish,Diesel,10.2,2001,Scotland,Recip_diesel
+971,SSE,Barkip AD,Waste,2.7,2012,Scotland,EfW
+972,SSE,Barra,Diesel,3.0,1990,Scotland,Recip_diesel
+973,SSE,Bowmore,Diesel,6.2,1946,Scotland,Recip_diesel
+977,SSE,Kirkwall,Diesel,16.0,1953,Scotland,Recip_diesel
+978,SSE,Lerwick,Diesel,67.0,1953,Scotland,Recip_diesel
+979,SSE,"Loch Carnan, South Uist",Diesel,11.5,1971,Scotland,Recip_diesel
+980,SSE,Peterhead,CCGT,1180.0,1980,Scotland,CCGT
+981,SSE,Stornoway,Diesel,24.0,1950,Scotland,Recip_diesel
+983,SSE,Tiree,Diesel,3.0,1945,Scotland,Recip_diesel
+992,SSE,Achany Windfarm,Wind,38.0,2010,Scotland,Onshore
+993,SSE,"Artfield Fell Windfarm - A,C",Wind,28.6,2005,Scotland,Onshore
+996,SSE,Bhlaraidh Wind Farm,Wind,110.4,2017,Scotland,Onshore
+997,SSE,Cathkin Braes Wind Farm,Wind,3.0,2013,Scotland,Onshore
+998,SSE,Clyde Windfarm (Central),Wind,112.7,2011,Scotland,Onshore
+999,SSE,Clyde Windfarm (North),Wind,108.1,2012,Scotland,Onshore
+1000,SSE,Clyde Windfarm (South),Wind,128.8,2011,Scotland,Onshore
+1001,SSE,Drumderg Windfarm,Wind,36.8,2008,Scotland,Onshore
+1002,SSE,Dunmaglass Wind Farm,Wind,94.1,2016,Scotland,Onshore
+1003,SSE,Fairburn Windfarm,Wind,40.0,2010,Scotland,Onshore
+1004,SSE,Gordonbush Wind Farm,Wind,70.0,2012,Scotland,Onshore
+1006,SSE,Griffin Wind Farm,Wind,188.6,2012,Scotland,Onshore
+1007,SSE,"Hadyard Hill Windfarm - A,C",Wind,119.8,2006,Scotland,Onshore
+1009,SSE,National Offshore Wind Turbine Test Facility (NOWTTF),Wind,13.2,2014,Scotland,Onshore
+1013,SSE,Spurness Wind Farm II,Wind,10.0,2012,Scotland,Onshore
+1014,SSE,Strathy North,Wind,66.0,2015,Scotland,Onshore
+1015,SSE,Tangy Wind Farm - A,Wind,18.5,2002,Scotland,Onshore
+1016,SSE,Toddleburn Windfarm,Wind,27.6,2010,Scotland,Onshore
+1018,SSE,Edinburgh College,Solar,0.6,2013,Scotland,PV
+1021,Statkraft Energy Ltd,Andershaw Wind Farm,Wind,35.0,2016,Scotland,Onshore
+1022,Statkraft Energy Ltd,Baillie Wind Farm,Wind,52.5,2013,Scotland,Onshore
+1023,Statkraft Energy Ltd,Berry Burn Wind farm,Wind,66.7,2014,Scotland,Onshore
+1036,Vattenfall,Clashindarroch,Wind,36.9,2015,Scotland,Onshore
+1037,Vattenfall,Edinbane,Wind,41.4,2010,Scotland,Onshore
+1057,WPO,Airies,Wind,39.9,2017,Scotland,Onshore
+1059,WPO,AOE,Wind,11.5,2014,Scotland,Onshore
+1060,WPO,Arnish Moor,Wind,3.9,2006,Scotland,Onshore
+1062,WPO,Betty Hill,Wind,6.0,2013,Scotland,Onshore
+1063,WPO,Corriegarth,Wind,69.0,2016,Scotland,Onshore
+1066,WPO,Dungavel,Wind,26.0,2015,Scotland,Onshore
+1069,WPO,FMC Dunfermline,Wind,1.5,2010,Scotland,Onshore
+1071,WPO,Greendykeside,Wind,4.0,2007,Scotland,Onshore
+1073,WPO,Hill of Auquhirie,Wind,6.9,2013,Scotland,Onshore
+1074,WPO,Lairg,Wind,7.5,2012,Scotland,Onshore
+1075,WPO,Lochhead,Wind,6.0,2009,Scotland,Onshore
+1077,WPO,Middle Balbeggie,Wind,4.0,2016,Scotland,Onshore
+1079,WPO,Mossmorran,Wind,4.6,2015,Scotland,Onshore
+1080,WPO,Newton of Fortrie,Wind,6.9,2013,Scotland,Onshore
+1082,WPO,Pentland Road,Wind,13.8,2013,Scotland,Onshore
+1088,WPO,Strath of Brydock,Wind,6.9,2009,Scotland,Onshore
