@@ -48,7 +48,7 @@ class DemandTimer:
 
         variable_params = {
             "scenario_file": [
-                # data.processed.scenarios.scenario_NI,
+                "/Users/b1017579/Documents/PhD/Projects/11-carbon_optimiser/data/processed/scenarios/scenario_scotland.py",
                 "/Users/b1017579/Documents/PhD/Projects/11-carbon_optimiser/data/processed/scenarios/scenario_NI.py"
             ]
         }
