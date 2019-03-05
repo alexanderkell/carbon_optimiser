@@ -3,6 +3,11 @@ pd.set_option('display.max_rows', 500)
 pd.set_option('display.max_columns', 500)
 from elecsim.constants import ROOT_DIR, KW_TO_MW
 
+import os
+print(os.path.join(os.path.dirname(__file__),'../..'))
+
+from constants import ROOT_DIR_carbon
+
 """scenario_data.py: Scenario file containing data for a single simulation run."""
 
 __author__ = "Alexander Kell"
@@ -89,7 +94,7 @@ load_duration_curve_diff = pd.read_csv('{}/data/processed/load_duration_curve/lo
 learning_rate = 0.5
 
 # Generator Companies imported from Government data files
-power_plants = pd.read_csv('/Users/b1017579/Documents/PhD/Projects/11-carbon_optimiser/data/processed/power_plants/northern_ireland_plants.csv', dtype={'Start_date': int})
+power_plants = pd.read_csv('{}/data/processed/power_plants/northern_ireland_plants.csv'.format(ROOT_DIR_carbon), dtype={'Start_date': int})
 modern_plant_costs = pd.read_csv('{}/data/processed/power_plants/power_plant_costs/modern_power_plant_costs/power_plant_costs_with_simplified_type.csv'.format(ROOT_DIR))
 
 power_plant_historical_costs_long = pd.read_csv('{}/data/processed/power_plants/power_plant_costs/historical_power_plant_costs/historical_power_plant_costs_long.csv'.format(ROOT_DIR))

@@ -10,6 +10,15 @@ from ray.tune import run_experiments
 
 from elecsim.reinforcement_learning.gym_elecsim.gym_elecsim.envs import WorldEnvironment
 
+import sys
+import os
+
+sys.path.append(os.path.join(os.path.dirname(__file__),'../../..'))
+
+print(os.path.join(os.path.dirname(__file__),'../..'))
+
+from constants import ROOT_DIR_carbon
+
 __author__ = "Alexander Kell"
 __copyright__ = "Copyright 2018, Alexander Kell"
 __license__ = "MIT"
@@ -21,7 +30,7 @@ logging.basicConfig(level=logging.INFO)
 
 if __name__ == "__main__":
 
-    scenario = "/Users/b1017579/Documents/PhD/Projects/11-carbon_optimiser/data/processed/scenarios/scenario_NI.py"
+    scenario = "{}/data/processed/scenarios/scenario_NI.py".format(ROOT_DIR_carbon)
     register_env("MyEnv-v0", lambda config: WorldEnvironment(scenario_file=scenario))
 
     ray.init(object_store_memory=2000000000)
@@ -38,4 +47,3 @@ if __name__ == "__main__":
             }
         }
     })
-
