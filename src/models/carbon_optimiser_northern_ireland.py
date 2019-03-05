@@ -13,9 +13,7 @@ from elecsim.reinforcement_learning.gym_elecsim.gym_elecsim.envs import WorldEnv
 import sys
 import os
 
-sys.path.append(os.path.join(os.path.dirname(__file__),'../../..'))
-
-print(os.path.join(os.path.dirname(__file__),'../..'))
+sys.path.append(os.path.join(os.path.dirname(__file__),'../..'))
 
 from constants import ROOT_DIR_carbon
 
@@ -43,7 +41,7 @@ if __name__ == "__main__":
             },
             "config":{
                 "lr": grid_search([1e-2, 1e-4, 1e-6]),
-                "num_workers": 1,
+                "num_workers": 3,
             }
         }
     })
