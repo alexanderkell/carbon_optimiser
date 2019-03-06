@@ -29,7 +29,7 @@ logging.basicConfig(level=logging.INFO)
 if __name__ == "__main__":
 
     scenario = "{}/data/processed/scenarios/scenario_NI.py".format(ROOT_DIR_carbon)
-    register_env("MyEnv-v0", lambda config: WorldEnvironment(scenario_file=scenario))
+    register_env("MyEnv-v0", lambda config: WorldEnvironment(scenario_file=scenario, data_folder="myvol"))
 
     ray.init(object_store_memory=2000000000)
     run_experiments({
