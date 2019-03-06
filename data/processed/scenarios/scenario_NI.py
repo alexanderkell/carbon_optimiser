@@ -4,7 +4,6 @@ pd.set_option('display.max_columns', 500)
 from elecsim.constants import ROOT_DIR, KW_TO_MW
 
 import os
-print(os.path.join(os.path.dirname(__file__),'../..'))
 
 from constants import ROOT_DIR_carbon
 
