@@ -41,7 +41,7 @@ if __name__ == "__main__":
             },
             "config":{
                 "lr": grid_search([1e-2, 1e-4, 1e-6]),
-                "num_workers": 3,
+                "num_workers": 1,
             }
         }
     })

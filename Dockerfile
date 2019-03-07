@@ -14,4 +14,4 @@ ENV PYTHONPATH "${PYTHONPATH}:/src/"
 
 ENTRYPOINT [ "python", "src/models/carbon_optimiser_northern_ireland.py" ]
 
-VOLUME [ "/data" ]
+VOLUME [ "/myvol" , "/root/ray_results", '~/ray_results']
