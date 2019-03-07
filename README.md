@@ -1,13 +1,7 @@
 Carbon Optimiser
 ================
 
-.. image:: https://img.shields.io/pypi/v/carbon_optimiser.svg
-    :target: https://pypi.python.org/pypi/carbon_optimiser
-    :alt: Latest PyPI version
-
-.. image:: https://travis-ci.org/alexanderkell/carbon_optimiser.png
-   :target: https://travis-ci.org/alexanderkell/carbon_optimiser
-   :alt: Latest Travis CI build status
+[![Build Status](https://travis-ci.org/alexanderkell/carbon_optimiser) 
 
 This repository contains code to optimise the long-term strategy of setting carbon tax to reduce carbon emissions and costs of an electricity market.
 
@@ -16,7 +10,9 @@ We use [ElecSim](https://github.com/alexanderkell/elecsim) as the simulation mod
 Usage
 -----
 
-To use this, use the WorldEnvironment class of ElecSim, and create a reinforcement learning algorithm in rllib. An example of this is shown [here](https://github.com/alexanderkell/carbon_optimiser/blob/master/src/models/carbon_optimiser_northern_ireland.py).
+The WorldEnvironment class of ElecSim is used as an [OpenAI gym](https://gym.openai.com/) interface to the reinforcement learning algorithm 
+
+We use the [Ray RLlib](https://ray.readthedocs.io/en/latest/rllib.html) for distributed reinforcement learning algorithms. An example of this is shown [here](https://github.com/alexanderkell/carbon_optimiser/blob/master/src/models/carbon_optimiser_northern_ireland.py).
 
 Installation
 ------------
@@ -30,7 +26,7 @@ pip install ray[rllib]
 ```
 
 Docker
-______
+------
 
 This can be run with your own custom reinforcement learning file through docker.
 
