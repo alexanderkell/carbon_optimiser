@@ -27,9 +27,9 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 if __name__ == "__main__":
-
+    number_of_steps = 40
     scenario = "{}/data/processed/scenarios/scenario_NI.py".format(ROOT_DIR_carbon)
-    register_env("MyEnv-v0", lambda config: WorldEnvironment(scenario_file=scenario, data_folder="myvol", number_of_steps=40))
+    register_env("MyEnv-v0", lambda config: WorldEnvironment(scenario_file=scenario, data_folder="myvol", number_of_steps=number_of_steps))
 
     ray.init(object_store_memory=2000000000)
     run_experiments({
@@ -37,7 +37,7 @@ if __name__ == "__main__":
             "run":"PPO",
             "env": "MyEnv-v0",
             "stop": {
-                "timesteps_total":40
+                "timesteps_total":number_of_steps
             },
             "config":{
                 "lr": grid_search([1e-2, 1e-4, 1e-6]),
