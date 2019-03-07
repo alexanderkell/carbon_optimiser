@@ -1,4 +1,4 @@
-carbon_optimiser
+Carbon Optimiser
 ================
 
 .. image:: https://img.shields.io/pypi/v/carbon_optimiser.svg
@@ -44,9 +44,9 @@ docker run --shm-size=2G -it -v <path/to/run_data>:/myvol -v <path/to/ray_result
 ```
 Replacing the paths in ```"<>"``` with your own directories. 
 
-- <path/to/run_data> is where data is written that is output from elecsim. Enabling you to visualise individual run characteristics such as carbon tax, cost of electricty and electricity supply type. 
-- <path/to/ray_results> is where you would like data output from ray rllib to be written. This provides information on the reinforcement algorithm which can be visualised using [tensorboard](https://www.tensorflow.org/guide/summaries_and_tensorboard). Checkpoints of the weights for the reinforcement algorithm are also saved here
-- Finally, </path/to/reinforcement_algorithm_runner> is the path where you have stored your version of [reinforcement algorithm](https://github.com/alexanderkell/carbon_optimiser/blob/master/src/models/carbon_optimiser_northern_ireland.py).
+- ```<path/to/run_data>``` is where data is written that is output from elecsim. Enabling you to visualise individual run characteristics such as carbon tax, cost of electricty and electricity supply type. 
+- ```<path/to/ray_results>``` is where you would like data output from ray rllib to be written. This provides information on the reinforcement algorithm which can be visualised using [tensorboard](https://www.tensorflow.org/guide/summaries_and_tensorboard). Checkpoints of the weights for the reinforcement algorithm are also saved here
+- Finally, ```</path/to/reinforcement_algorithm_runner>``` is the path where you have stored your version of [reinforcement algorithm](https://github.com/alexanderkell/carbon_optimiser/blob/master/src/models/carbon_optimiser_northern_ireland.py).
 
 
 Compatibility
