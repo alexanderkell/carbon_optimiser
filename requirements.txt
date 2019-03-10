@@ -20,7 +20,7 @@ defusedxml==0.5.0
 dill==0.2.9
 docker==3.7.0
 docker-pycreds==0.4.0
-elecsim==0.1.39
+elecsim==0.1.43
 entrypoints==0.3
 filelock==3.0.10
 flatbuffers==1.10
@@ -62,6 +62,7 @@ networkx==2.2
 notebook==5.7.4
 numpy==1.16.2
 opencv-python==4.0.0.21
+opencv-python-headless==4.0.0.21
 pandas==0.24.1
 pandocfilters==1.4.2
 parso==0.3.4
@@ -93,7 +94,7 @@ pytz==2018.9
 PyYAML==3.13
 pyzmq==18.0.0
 qtconsole==4.4.3
-ray==0.6.3
+ray==0.6.4
 redis==3.2.0
 requests==2.21.0
 rope==0.12.0
@@ -111,6 +112,7 @@ tornado==4.5.3
 tqdm==4.31.1
 traitlets==4.3.2
 typed-ast==1.2.0
+typing==3.6.6
 urllib3==1.24.1
 wcwidth==0.1.7
 webencodings==0.5.1
