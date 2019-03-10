@@ -8,7 +8,7 @@ from ray.tune import register_env
 import ray
 from ray.tune import run_experiments
 
-from elecsim.reinforcement_learning.gym_elecsim.gym_elecsim.envs.world_environment import WorldEnvironment
+from elecsim.reinforcement_learning.gym_elecsim.gym_elecsim.envs import WorldEnvironment
 
 import sys
 import os
@@ -28,24 +28,20 @@ logging.basicConfig(level=logging.INFO)
 if __name__ == "__main__":
     number_of_steps = 40
     scenario = "{}/data/processed/scenarios/scenario_NI.py".format(ROOT_DIR_carbon)
-    register_env("MyEnv-v3", lambda config: WorldEnvironment(config))
+    register_env("MyEnv-v0", lambda config: WorldEnvironment(scenario_file=scenario, data_folder="myvol", max_number_of_steps=number_of_steps))
 
     ray.init(object_store_memory=2000000000)
     run_experiments({
         "demo":{
-            "run":"ES",
-            "env": "MyEnv-v3",
+            "run":"PPO",
+            "env": "MyEnv-v0",
             "stop": {
-                "timesteps_total":number_of_steps,
+                "timesteps_total":number_of_steps
             },
             "config":{
-                # "lr": grid_search([1e-2, 1e-4, 1e-6]),
-                "num_workers": 3,
-                "env_config": {
-                    "max_number_of_steps": number_of_steps,
-                    "scenario_file": scenario,
-                    "data_folder":"myvol",
-                },
-            },
-        },
+                "lr": grid_search([1e-2, 1e-4, 1e-6]),
+                "num_workers": 1,
+            }
+        }
     })
+    

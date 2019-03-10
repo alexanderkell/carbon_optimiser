@@ -11,7 +11,9 @@ WORKDIR /app
 ENV PYTHONPATH "${PYTHONPATH}:/src/"
 
 # RUN tensorboard --logdir /tmp/ray
+VOLUME [ "/myvol" , "/root/ray_results"]
 
+# ENTRYPOINT [ "python", "src/models/carbon_optimiser_northern_ireland.py" ]
 ENTRYPOINT [ "python", "src/models/carbon_optimiser_northern_ireland.py" ]
 
-VOLUME [ "/myvol" , "/root/ray_results"]
+CMD [ "src/models/carbon_optimiser_northern_ireland.py" ]
