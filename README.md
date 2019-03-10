@@ -3,7 +3,7 @@ Carbon Optimiser
 
 This repository contains code to optimise the long-term strategy of setting carbon tax to reduce carbon emissions and costs of an electricity market.
 
-We use [ElecSim](https://github.com/alexanderkell/elecsim) as the simulation model and [Ray Rllib](https://ray.readthedocs.io/en/latest/rllib.html) as a package for distributed reinforcement learning.
+We use [ElecSim](https://github.com/alexanderkell/elecsim) as the simulation model and [Ray RLlib](https://ray.readthedocs.io/en/latest/rllib.html) as a package for distributed reinforcement learning.
 
 Usage
 -----
