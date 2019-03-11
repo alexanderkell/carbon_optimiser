@@ -41,6 +41,10 @@ if __name__ == "__main__":
             "config":{
                 # "lr": grid_search([1e-2, 1e-4, 1e-6]),
                 "num_workers": 3,
+                "gamma": 0.9,
+                "monitor":True,
+                "log_level":"DEBUG",
+                "horizon": number_of_steps,
                 "env_config": {
                     "max_number_of_steps": number_of_steps,
                     "scenario_file": scenario,
