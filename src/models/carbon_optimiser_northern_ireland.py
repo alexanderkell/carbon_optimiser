@@ -7,7 +7,7 @@ from ray.tune import grid_search
 from ray.tune import register_env
 import ray
 from ray.tune import run_experiments
-
+from ray.tune import function
 from elecsim.reinforcement_learning.gym_elecsim.gym_elecsim.envs.world_environment import WorldEnvironment
 
 import sys
@@ -25,6 +25,10 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
+
+
+
+
 if __name__ == "__main__":
     number_of_steps = 40
     scenario = "{}/data/processed/scenarios/scenario_NI.py".format(ROOT_DIR_carbon)
@@ -33,7 +37,7 @@ if __name__ == "__main__":
     ray.init(object_store_memory=2000000000)
     run_experiments({
         "demo":{
-            "run":"ES",
+            "run":"DDPG",
             "env": "MyEnv-v3",
             "stop": {
                 "timesteps_total":number_of_steps,
@@ -42,9 +46,13 @@ if __name__ == "__main__":
                 # "lr": grid_search([1e-2, 1e-4, 1e-6]),
                 "num_workers": 3,
                 "gamma": 0.9,
-                "monitor":True,
-                "log_level":"DEBUG",
+                # "monitor":True,
+                "timesteps_per_iteration": 1,
+                "learning_starts": 1,
+                "log_level":"INFO",
                 "horizon": number_of_steps,
+                "sample_batch_size": 128,
+                "train_batch_size": 128,
                 "env_config": {
                     "max_number_of_steps": number_of_steps,
                     "scenario_file": scenario,
