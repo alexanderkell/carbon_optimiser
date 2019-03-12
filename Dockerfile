@@ -14,6 +14,6 @@ ENV PYTHONPATH "${PYTHONPATH}:/src/"
 VOLUME [ "/myvol" , "/root/ray_results"]
 
 # ENTRYPOINT [ "python", "src/models/carbon_optimiser_northern_ireland.py" ]
-ENTRYPOINT [ "python", "src/models/carbon_optimiser_northern_ireland.py" ]
+ENTRYPOINT [ "python", "src/models/carbon_optimiser_northern_ireland.py" , "--checkpoint-freq=1"]
 
 CMD [ "src/models/carbon_optimiser_northern_ireland.py" ]

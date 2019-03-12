@@ -30,7 +30,7 @@ logging.basicConfig(level=logging.INFO)
 
 
 if __name__ == "__main__":
-    number_of_steps = 40
+    number_of_steps = 1
     scenario = "{}/data/processed/scenarios/scenario_NI.py".format(ROOT_DIR_carbon)
     register_env("MyEnv-v3", lambda config: WorldEnvironment(config))
 
