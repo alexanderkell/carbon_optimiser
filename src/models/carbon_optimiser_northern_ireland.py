@@ -46,7 +46,7 @@ if __name__ == "__main__":
                 # "lr": grid_search([1e-2, 1e-4, 1e-6]),
                 "num_workers": 3,
                 "gamma": 0.9,
-                "timesteps_per_iteration": 40,
+                "timesteps_per_iteration": 120,
                 "learning_starts": 200,
                 "log_level":"INFO",
                 "horizon": number_of_steps,
