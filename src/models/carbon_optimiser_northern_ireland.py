@@ -44,7 +44,7 @@ if __name__ == "__main__":
             },
             "config":{
                 # "lr": grid_search([1e-2, 1e-4, 1e-6]),
-                "num_workers": 3,
+                "num_workers": 1,
                 "gamma": 0.9,
                 "timesteps_per_iteration": 40,
                 "learning_starts": 200,
