@@ -44,15 +44,12 @@ if __name__ == "__main__":
             },
             "config":{
                 # "lr": grid_search([1e-2, 1e-4, 1e-6]),
-                "num_workers": 3,
+                "num_workers": 1,
                 "gamma": 0.9,
-                # "monitor":True,
                 "timesteps_per_iteration": 40,
-                "learning_starts": 40,
+                "learning_starts": 1,
                 "log_level":"INFO",
                 "horizon": number_of_steps,
-                "sample_batch_size": 128,
-                "train_batch_size": 128,
                 "env_config": {
                     "max_number_of_steps": number_of_steps,
                     "scenario_file": scenario,
