@@ -40,14 +40,14 @@ if __name__ == "__main__":
             "run":"DDPG",
             "env": "MyEnv-v3",
             "stop": {
-                "timesteps_total":number_of_steps,
+                "timesteps_total":10000000000,
             },
             "config":{
                 # "lr": grid_search([1e-2, 1e-4, 1e-6]),
                 "num_workers": 1,
                 "gamma": 0.9,
                 "timesteps_per_iteration": 40,
-                "learning_starts": 1,
+                "learning_starts": 200,
                 "log_level":"INFO",
                 "horizon": number_of_steps,
                 "env_config": {
