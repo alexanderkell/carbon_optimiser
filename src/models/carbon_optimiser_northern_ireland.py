@@ -30,7 +30,7 @@ logging.basicConfig(level=logging.INFO)
 
 
 if __name__ == "__main__":
-    number_of_steps = 1
+    number_of_steps = 40
     scenario = "{}/data/processed/scenarios/scenario_NI.py".format(ROOT_DIR_carbon)
     register_env("MyEnv-v3", lambda config: WorldEnvironment(config))
 
@@ -47,8 +47,8 @@ if __name__ == "__main__":
                 "num_workers": 3,
                 "gamma": 0.9,
                 # "monitor":True,
-                "timesteps_per_iteration": 1,
-                "learning_starts": 1,
+                "timesteps_per_iteration": 40,
+                "learning_starts": 40,
                 "log_level":"INFO",
                 "horizon": number_of_steps,
                 "sample_batch_size": 128,
