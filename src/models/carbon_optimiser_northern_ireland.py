@@ -47,7 +47,7 @@ if __name__ == "__main__":
                 "num_workers": 3,
                 "gamma": 0.9,
                 "timesteps_per_iteration": 120,
-                "learning_starts": 200,
+                "learning_starts": 1200,
                 "log_level":"INFO",
                 "horizon": number_of_steps,
                 "env_config": {
