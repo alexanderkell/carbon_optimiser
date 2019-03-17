@@ -42,6 +42,7 @@ if __name__ == "__main__":
             "stop": {
                 "timesteps_total":10000000000,
             },
+            "checkpoint_freq": 1,
             "config":{
                 # "lr": grid_search([1e-2, 1e-4, 1e-6]),
                 "num_workers": 3,
