@@ -8,6 +8,7 @@ from ray.tune import register_env
 import ray
 from ray.tune import run_experiments
 from ray.tune import function
+from ray.tune.schedulers import PopulationBasedTraining
 from elecsim.reinforcement_learning.gym_elecsim.gym_elecsim.envs.world_environment import WorldEnvironment
 
 import sys
@@ -34,6 +35,14 @@ if __name__ == "__main__":
     scenario = "{}/data/processed/scenarios/scenario_NI.py".format(ROOT_DIR_carbon)
     register_env("MyEnv-v3", lambda config: WorldEnvironment(config))
 
+    # pbt_scheduler = PopulationBasedTraining(
+    #     time_attr='time_total_s',
+    #     reward_attr='episode_reward_mean',
+    #     perturbation_interval=600.0,
+    #     hyperparam_mutations={
+    #         "lr": [1e-3, 5e-4, 1e-4, 5e-5, 1e-5], "alpha": lambda: random.uniform(0.0, 1.0),
+    #     })
+
     ray.init(object_store_memory=2000000000)
     run_experiments({
         "demo":{
@@ -45,9 +54,9 @@ if __name__ == "__main__":
             "checkpoint_freq": 1,
             "config":{
                 # "lr": grid_search([1e-2, 1e-4, 1e-6]),
-                "num_workers": 3,
+                "num_workers": 7,
                 "gamma": 0.9,
-                "timesteps_per_iteration": 120,
+                "timesteps_per_iteration": 280,
                 "learning_starts": 1200,
                 "log_level":"INFO",
                 "horizon": number_of_steps,
@@ -58,4 +67,6 @@ if __name__ == "__main__":
                 },
             },
         },
-    })
+    },
+    # scheduler=pbt_scheduler
+    )
