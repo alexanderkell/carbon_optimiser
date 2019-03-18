@@ -35,13 +35,13 @@ if __name__ == "__main__":
     scenario = "{}/data/processed/scenarios/scenario_NI.py".format(ROOT_DIR_carbon)
     register_env("MyEnv-v3", lambda config: WorldEnvironment(config))
 
-    # pbt_scheduler = PopulationBasedTraining(
-    #     time_attr='time_total_s',
-    #     reward_attr='episode_reward_mean',
-    #     perturbation_interval=600.0,
-    #     hyperparam_mutations={
-    #         "lr": [1e-3, 5e-4, 1e-4, 5e-5, 1e-5], "alpha": lambda: random.uniform(0.0, 1.0),
-    #     })
+    pbt_scheduler = PopulationBasedTraining(
+        time_attr='time_total_s',
+        reward_attr='episode_reward_mean',
+        perturbation_interval=600.0,
+        hyperparam_mutations={
+            "lr": [1e-3, 5e-4, 1e-4, 5e-5, 1e-5], "alpha": lambda: random.uniform(0.0, 1.0),
+        })
 
     ray.init(object_store_memory=2000000000)
     run_experiments({
@@ -68,5 +68,5 @@ if __name__ == "__main__":
             },
         },
     },
-    # scheduler=pbt_scheduler
+    scheduler=pbt_scheduler
     )
