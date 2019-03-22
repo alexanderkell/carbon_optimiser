@@ -43,7 +43,7 @@ if __name__ == "__main__":
             "lr": [1e-3, 5e-4, 1e-4, 5e-5, 1e-5]
         })
     number_of_workers = 2
-    ray.init(object_store_memory=2000000000, num_cpus=8)
+    ray.init(object_store_memory=2000000000, num_cpus=4)
     run_experiments({
         "demo":{
             "run":"DDPG",
@@ -58,7 +58,9 @@ if __name__ == "__main__":
                 "gamma": 0.9,
                 "timesteps_per_iteration": 40*number_of_workers,
                 "learning_starts": 120,
+                "parameter_noise": True,
                 "log_level":"INFO",
+                "batch_mode": "complete_episodes",
                 "horizon": number_of_steps,
                 "env_config": {
                     "max_number_of_steps": number_of_steps,
