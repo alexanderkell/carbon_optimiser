@@ -58,7 +58,6 @@ if __name__ == "__main__":
                 "gamma": 0.9,
                 "timesteps_per_iteration": 40*number_of_workers,
                 "learning_starts": 120,
-                "parameter_noise": True,
                 "log_level":"INFO",
                 "horizon": number_of_steps,
                 "env_config": {
