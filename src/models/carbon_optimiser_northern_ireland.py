@@ -43,7 +43,7 @@ if __name__ == "__main__":
             "lr": [1e-3, 5e-4, 1e-4, 5e-5, 1e-5]
         })
     number_of_workers = 2
-    ray.init(object_store_memory=2000000000, num_cpus=4)
+    ray.init(object_store_memory=2000000000, num_cpus=8)
     run_experiments({
         "demo":{
             "run":"DDPG",
