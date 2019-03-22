@@ -38,12 +38,12 @@ if __name__ == "__main__":
     pbt_scheduler = PopulationBasedTraining(
         time_attr='time_total_s',
         reward_attr='episode_reward_mean',
-        perturbation_interval=600.0,
+        perturbation_interval=6000.0,
         hyperparam_mutations={
-            "lr": [1e-3, 5e-4, 1e-4, 5e-5, 1e-5], "alpha": lambda: random.uniform(0.0, 1.0),
+            "lr": [1e-3, 5e-4, 1e-4, 5e-5, 1e-5]
         })
-
-    ray.init(object_store_memory=2000000000)
+    number_of_workers = 2
+    ray.init(object_store_memory=2000000000, num_cpus=8)
     run_experiments({
         "demo":{
             "run":"DDPG",
@@ -53,11 +53,12 @@ if __name__ == "__main__":
             },
             "checkpoint_freq": 1,
             "config":{
-                # "lr": grid_search([1e-2, 1e-4, 1e-6]),
-                "num_workers": 7,
+                "lr": grid_search([1e-2, 1e-4, 1e-6]),
+                "num_workers": number_of_workers,
                 "gamma": 0.9,
-                "timesteps_per_iteration": 280,
-                "learning_starts": 1200,
+                "timesteps_per_iteration": 40*number_of_workers,
+                "learning_starts": 120,
+                "parameter_noise": True,
                 "log_level":"INFO",
                 "horizon": number_of_steps,
                 "env_config": {
