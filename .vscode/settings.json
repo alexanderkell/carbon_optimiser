@@ -1,4 +1,6 @@
 {
     "python.pythonPath": "carbon_venv/bin/python",
-    "python.linting.pylintEnabled": true
+    "python.linting.pylintEnabled": true,
+    "python.jediEnabled": true,
+    "python.autoComplete.addBrackets": true,
 }
