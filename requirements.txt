@@ -79,7 +79,7 @@ poyo==0.4.2
 ppft==1.6.4.9
 prometheus-client==0.6.0
 prompt-toolkit==2.0.9
-protobuf==3.7.0
+protobuf==3.18.3
 psutil==5.5.1
 ptyprocess==0.6.0
 py==1.8.0
